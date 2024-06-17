@@ -1,0 +1,28 @@
+.parent{
+width: 600PX;
+overflow: hidden;
+margin: 20px auto;
+padding: 20px ;
+background-color: #eee;
+
+}
+
+.one{
+background-color: #eee;
+width: 100px;
+height: 100px;
+font-size: larger;
+float: left;
+transition-duration:2s;
+transition-delay:.2s ;
+transition-property: all;
+transition-timing-function: ease-out;
+}
+
+.one:hover{
+margin-left: 20px;
+margin-top: 20px;
+width: 200px;
+background-color: blue;
+color: #eee;
+}
